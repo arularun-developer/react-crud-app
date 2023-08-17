@@ -1,0 +1,36 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: content-box;
+}
+ .form-control:focus{
+  box-shadow:none ;
+   border-color: rgb(6, 139, 62);
+  border-width: 2px;
+ }
+ .form-select:focus{
+  box-shadow:none ;
+  border-color: rgb(6, 139, 62);
+ border-width: 2px;
+ }
+ 
+.card{
+  background-color: black;
+  color:white;
+  font-size: medium;
+  font-weight: bolder;
+   border : 2px solid;
+  height:auto;
+   width:300px;
+}
+
+#main{
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+      gap:20px;
+}
+
+.form-select{
+  width: 30% !important;
+
+}
